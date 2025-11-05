@@ -1,0 +1,23 @@
+{
+  "name": "linux-monitor",
+  "version": "1.0.0",
+  "description": "Monitor web de servidor Linux",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pem": "^1.14.8",
+    "socket.io": "^4.8.1",
+    "systeminformation": "^5.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

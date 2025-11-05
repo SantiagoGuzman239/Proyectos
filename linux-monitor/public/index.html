@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Monitor Linux – Socket.IO</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>.icon{width:28px;height:28px;margin-right:10px}</style>
+</head>
+<body class="bg-gray-900 text-gray-100 p-6">
+  <h1 class="text-3xl font-bold mb-6">Monitor Linux (Tiempo real)</h1>
+  <section id="panel" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></section>
+
+  <!-- Socket.IO cliente -->
+  <script src="http://192.168.1.41:3000/socket.io/socket.io.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
